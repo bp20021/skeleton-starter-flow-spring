@@ -24,6 +24,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @CssImport(value = "./styles/vaadin-text-field-styles.css", themeFor = "vaadin-text-field")
 public class Main extends VerticalLayout {
     UI ui;
+    
     static final AtomicInteger count23 = new AtomicInteger(0);
 
 
